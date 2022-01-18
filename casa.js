@@ -1,3 +1,4 @@
+let nPisos=(prompt("ingrese el numero de pisos que quiere que la casa tenga"))
 function piso(){
 console.log("[    _   _    ]")
 console.log("[   [_] [_]   ]")
@@ -19,4 +20,4 @@ function casa(nPisos){
         pisoBase();
     }
 }
-let nPisos=(prompt("ingrese el numero de pisos que quiere que la casa tenga"))
+
