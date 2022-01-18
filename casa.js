@@ -19,3 +19,4 @@ function casa(nPisos){
         pisoBase();
     }
 }
+let nPisos=(prompt("ingrese el numero de pisos que quiere que la casa tenga"))
