@@ -1,4 +1,4 @@
-let nPisos=(prompt("ingrese el numero de pisos que quiere que la casa tenga"))
+
 function piso(){
 console.log("[    _   _    ]")
 console.log("[   [_] [_]   ]")
@@ -14,10 +14,16 @@ console.log("  _______/\\__")
 console.log("/______________\\")
 }
 function casa(nPisos){
-    for(let i=0;i<nPisos;i++){
-        techo();
-        piso();
-        pisoBase();
+    techo()
+    for(let i = 0; i < nPisos; i++){
+        piso()
+    }
+    pisoBase()
+}
+let nPisos = parseInt(prompt("Ingrese el numero de pisos"))
+casa(nPisos)
+
+
     }
 }
 
