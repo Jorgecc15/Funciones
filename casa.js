@@ -24,6 +24,6 @@ let nPisos = parseInt(prompt("Ingrese el numero de pisos"))
 casa(nPisos)
 
 
-    }
-}
+    
+
 
